@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B4D8A990-D82D-4889-B831-1EB3A796B907"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "387BEC56-D235-4498-8598-BAA26F7EFDF1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ncmb.signinwithapple/SignInWithAppleDelegates.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "signInWithUserAndPassword(credential:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68A015C7-E2C4-4C15-97BF-AEAC22789C0F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ncmb.signinwithapple/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "performSignIn(using:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FFE3C30-BCE8-4564-A9A0-7B042ECF574A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ncmb.signinwithapple/SignInWithAppleDelegates.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "authorizationController(controller:didCompleteWithAuthorization:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECA271E7-31E8-4039-BD0E-A1040D6AF42C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ncmb.signinwithapple/SignInWithAppleDelegates.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "authorizationController(controller:didCompleteWithAuthorization:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "556B0DDF-2DEC-41CD-BA9F-375523B50CB2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ncmb.signinwithapple/SignInWithAppleDelegates.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "authorizationController(controller:didCompleteWithAuthorization:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E0B49F9-78BA-4F1A-82F6-9634E53410DA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ncmb.signinwithapple/SignInWithAppleDelegates.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "authorizationController(controller:didCompleteWithAuthorization:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5E0B49F9-78BA-4F1A-82F6-9634E53410DA - ebe546ff08925059"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ncmb_signinwithapple.SignInWithAppleDelegates.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "ncmb.signinwithapple"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakatsugawa/Code/NCMB/ncmb.signinwithapple/ncmb.signinwithapple/SignInWithAppleDelegates.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "4252">
+               </Location>
+               <Location
+                  uuid = "5E0B49F9-78BA-4F1A-82F6-9634E53410DA - e3d758e2a44f12cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (NCMB.NCMBResult&lt;()&gt;) -&gt; () in ncmb_signinwithapple.SignInWithAppleDelegates.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "ncmb.signinwithapple"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakatsugawa/Code/NCMB/ncmb.signinwithapple/ncmb.signinwithapple/SignInWithAppleDelegates.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "958D36A0-47C5-40F4-A995-0C0D44C60D0F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ncmb.signinwithapple/SignInWithAppleDelegates.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "authorizationController(controller:didCompleteWithAuthorization:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9763474A-65D6-4CF2-A3DE-738BA8226B45"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ncmb.signinwithapple/SignInWithAppleDelegates.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "authorizationController(controller:didCompleteWithAuthorization:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CE3FFFF-3F16-43C2-8F3C-B3D7353A1788"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NCMB/NCMB/NCMBUser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "602"
+            endingLineNumber = "602"
+            landmarkName = "signUpWithAppleToken(appleParameters:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80923E7A-61F4-4179-853B-0895E3944DB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NCMB/NCMB/NCMBUser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "617"
+            endingLineNumber = "617"
+            landmarkName = "signUpWithToken(snsInfo:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80923E7A-61F4-4179-853B-0895E3944DB8 - 1af4faf80c397f1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NCMB.NCMBUser.signUpWithToken(snsInfo: __C.NSMutableDictionary, callback: (NCMB.NCMBResult&lt;()&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NCMB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakatsugawa/Code/NCMB/ncmb.signinwithapple/Pods/NCMB/NCMB/NCMBUser.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "617"
+                  endingLineNumber = "617"
+                  offsetFromSymbolStart = "1400">
+               </Location>
+               <Location
+                  uuid = "80923E7A-61F4-4179-853B-0895E3944DB8 - df1ddc2bed8edc94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (NCMB.NCMBResult&lt;()&gt;) -&gt; () in NCMB.NCMBUser.signUpWithToken(snsInfo: __C.NSMutableDictionary, callback: (NCMB.NCMBResult&lt;()&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NCMB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakatsugawa/Code/NCMB/ncmb.signinwithapple/Pods/NCMB/NCMB/NCMBUser.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "619"
+                  endingLineNumber = "619"
+                  offsetFromSymbolStart = "236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBFE5ADB-9696-44FD-B0B4-D8E5392E8118"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NCMB/NCMB/service/NCMBRequestServiceProtocol.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "createPostRequest(object:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DBFE5ADB-9696-44FD-B0B4-D8E5392E8118 - 3664ed0767e0f9d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in NCMB):NCMB.NCMBRequestServiceProtocol.createPostRequest(object: NCMB.NCMBBase) throws -&gt; NCMB.NCMBRequest"
+                  moduleName = "NCMB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakatsugawa/Code/NCMB/ncmb.signinwithapple/Pods/NCMB/NCMB/service/NCMBRequestServiceProtocol.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "712">
+               </Location>
+               <Location
+                  uuid = "DBFE5ADB-9696-44FD-B0B4-D8E5392E8118 - 3664ed0767e0f9d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in NCMB):NCMB.NCMBRequestServiceProtocol.createPostRequest(object: NCMB.NCMBBase) throws -&gt; NCMB.NCMBRequest"
+                  moduleName = "NCMB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakatsugawa/Code/NCMB/ncmb.signinwithapple/Pods/NCMB/NCMB/service/NCMBRequestServiceProtocol.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "740">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

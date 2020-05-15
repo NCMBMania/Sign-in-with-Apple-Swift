@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7069E3C246E73EE00921C9D /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7069E3B246E73EE00921C9D /* SignInWithApple.swift */; };
+		C7069E3E246E794D00921C9D /* SignInWithAppleDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7069E3D246E794D00921C9D /* SignInWithAppleDelegates.swift */; };
 		C75A53E7246E6E6900722C8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75A53E6246E6E6900722C8B /* AppDelegate.swift */; };
 		C75A53E9246E6E6900722C8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75A53E8246E6E6900722C8B /* SceneDelegate.swift */; };
 		C75A53EB246E6E6900722C8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75A53EA246E6E6900722C8B /* ContentView.swift */; };
@@ -14,6 +16,8 @@
 		C75A53F0246E6E6C00722C8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75A53EF246E6E6C00722C8B /* Preview Assets.xcassets */; };
 		C75A53F3246E6E6C00722C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75A53F1246E6E6C00722C8B /* LaunchScreen.storyboard */; };
 		C75A53FE246E6E6C00722C8B /* ncmb_signinwithappleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75A53FD246E6E6C00722C8B /* ncmb_signinwithappleUITests.swift */; };
+		DAC656ACBBD3DA00CCFE93AD /* Pods_ncmb_signinwithapple_ncmb_signinwithappleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01665A4966AF75723B85C0B /* Pods_ncmb_signinwithapple_ncmb_signinwithappleUITests.framework */; };
+		FED3D222A9CAE11E237D223F /* Pods_ncmb_signinwithapple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3CBDA5BF9393D12AEDDFC9 /* Pods_ncmb_signinwithapple.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C4D83087E67716AE924F13B /* Pods-ncmb.signinwithapple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ncmb.signinwithapple.release.xcconfig"; path = "Target Support Files/Pods-ncmb.signinwithapple/Pods-ncmb.signinwithapple.release.xcconfig"; sourceTree = "<group>"; };
+		56F0352ABC2968F69F245D38 /* Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests.release.xcconfig"; path = "Target Support Files/Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests/Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		576E0139A9357749036BD1A9 /* Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests.debug.xcconfig"; path = "Target Support Files/Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests/Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0EA6E56877EC037F70DB608 /* Pods-ncmb.signinwithapple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ncmb.signinwithapple.debug.xcconfig"; path = "Target Support Files/Pods-ncmb.signinwithapple/Pods-ncmb.signinwithapple.debug.xcconfig"; sourceTree = "<group>"; };
+		C7069E38246E6EF200921C9D /* ncmb.signinwithapple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ncmb.signinwithapple.entitlements; sourceTree = "<group>"; };
+		C7069E3B246E73EE00921C9D /* SignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
+		C7069E3D246E794D00921C9D /* SignInWithAppleDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleDelegates.swift; sourceTree = "<group>"; };
 		C75A53E3246E6E6900722C8B /* ncmb.signinwithapple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ncmb.signinwithapple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75A53E6246E6E6900722C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C75A53E8246E6E6900722C8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +49,8 @@
 		C75A53F9246E6E6C00722C8B /* ncmb.signinwithappleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ncmb.signinwithappleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75A53FD246E6E6C00722C8B /* ncmb_signinwithappleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ncmb_signinwithappleUITests.swift; sourceTree = "<group>"; };
 		C75A53FF246E6E6C00722C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3CBDA5BF9393D12AEDDFC9 /* Pods_ncmb_signinwithapple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ncmb_signinwithapple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01665A4966AF75723B85C0B /* Pods_ncmb_signinwithapple_ncmb_signinwithappleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ncmb_signinwithapple_ncmb_signinwithappleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED3D222A9CAE11E237D223F /* Pods_ncmb_signinwithapple.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC656ACBBD3DA00CCFE93AD /* Pods_ncmb_signinwithapple_ncmb_signinwithappleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +79,8 @@
 				C75A53E5246E6E6900722C8B /* ncmb.signinwithapple */,
 				C75A53FC246E6E6C00722C8B /* ncmb.signinwithappleUITests */,
 				C75A53E4246E6E6900722C8B /* Products */,
+				EEE1C920D2C5292BA7669198 /* Pods */,
+				E41A376DAEE1A13AF2D5410C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +96,7 @@
 		C75A53E5246E6E6900722C8B /* ncmb.signinwithapple */ = {
 			isa = PBXGroup;
 			children = (
+				C7069E38246E6EF200921C9D /* ncmb.signinwithapple.entitlements */,
 				C75A53E6246E6E6900722C8B /* AppDelegate.swift */,
 				C75A53E8246E6E6900722C8B /* SceneDelegate.swift */,
 				C75A53EA246E6E6900722C8B /* ContentView.swift */,
@@ -86,6 +104,8 @@
 				C75A53F1246E6E6C00722C8B /* LaunchScreen.storyboard */,
 				C75A53F4246E6E6C00722C8B /* Info.plist */,
 				C75A53EE246E6E6C00722C8B /* Preview Content */,
+				C7069E3B246E73EE00921C9D /* SignInWithApple.swift */,
+				C7069E3D246E794D00921C9D /* SignInWithAppleDelegates.swift */,
 			);
 			path = ncmb.signinwithapple;
 			sourceTree = "<group>";
@@ -107,6 +127,26 @@
 			path = ncmb.signinwithappleUITests;
 			sourceTree = "<group>";
 		};
+		E41A376DAEE1A13AF2D5410C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC3CBDA5BF9393D12AEDDFC9 /* Pods_ncmb_signinwithapple.framework */,
+				E01665A4966AF75723B85C0B /* Pods_ncmb_signinwithapple_ncmb_signinwithappleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEE1C920D2C5292BA7669198 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0EA6E56877EC037F70DB608 /* Pods-ncmb.signinwithapple.debug.xcconfig */,
+				0C4D83087E67716AE924F13B /* Pods-ncmb.signinwithapple.release.xcconfig */,
+				576E0139A9357749036BD1A9 /* Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests.debug.xcconfig */,
+				56F0352ABC2968F69F245D38 /* Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C75A5402246E6E6C00722C8B /* Build configuration list for PBXNativeTarget "ncmb.signinwithapple" */;
 			buildPhases = (
+				CBCD1871EF0E25F26CBCEBEC /* [CP] Check Pods Manifest.lock */,
 				C75A53DF246E6E6900722C8B /* Sources */,
 				C75A53E0246E6E6900722C8B /* Frameworks */,
 				C75A53E1246E6E6900722C8B /* Resources */,
+				93EE9EA177DAE2BE1F553C2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C75A5405246E6E6C00722C8B /* Build configuration list for PBXNativeTarget "ncmb.signinwithappleUITests" */;
 			buildPhases = (
+				0D3133161F827F1B28D7D1FC /* [CP] Check Pods Manifest.lock */,
 				C75A53F5246E6E6C00722C8B /* Sources */,
 				C75A53F6246E6E6C00722C8B /* Frameworks */,
 				C75A53F7246E6E6C00722C8B /* Resources */,
+				FDCF59732CE01854C6967054 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -203,6 +247,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D3133161F827F1B28D7D1FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93EE9EA177DAE2BE1F553C2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ncmb.signinwithapple/Pods-ncmb.signinwithapple-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ncmb.signinwithapple/Pods-ncmb.signinwithapple-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ncmb.signinwithapple/Pods-ncmb.signinwithapple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBCD1871EF0E25F26CBCEBEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ncmb.signinwithapple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDCF59732CE01854C6967054 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests/Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests/Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests/Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C75A53DF246E6E6900722C8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -210,6 +335,8 @@
 			files = (
 				C75A53E7246E6E6900722C8B /* AppDelegate.swift in Sources */,
 				C75A53E9246E6E6900722C8B /* SceneDelegate.swift in Sources */,
+				C7069E3C246E73EE00921C9D /* SignInWithApple.swift in Sources */,
+				C7069E3E246E794D00921C9D /* SignInWithAppleDelegates.swift in Sources */,
 				C75A53EB246E6E6900722C8B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,8 +487,10 @@
 		};
 		C75A5403246E6E6C00722C8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0EA6E56877EC037F70DB608 /* Pods-ncmb.signinwithapple.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ncmb.signinwithapple/ncmb.signinwithapple.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ncmb.signinwithapple/Preview Content\"";
 				DEVELOPMENT_TEAM = YX944FB478;
@@ -380,8 +509,10 @@
 		};
 		C75A5404246E6E6C00722C8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4D83087E67716AE924F13B /* Pods-ncmb.signinwithapple.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ncmb.signinwithapple/ncmb.signinwithapple.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ncmb.signinwithapple/Preview Content\"";
 				DEVELOPMENT_TEAM = YX944FB478;
@@ -400,6 +531,7 @@
 		};
 		C75A5406246E6E6C00722C8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576E0139A9357749036BD1A9 /* Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -420,6 +552,7 @@
 		};
 		C75A5407246E6E6C00722C8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F0352ABC2968F69F245D38 /* Pods-ncmb.signinwithapple-ncmb.signinwithappleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

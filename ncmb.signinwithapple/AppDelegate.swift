@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NCMB
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        NCMB.initialize(applicationKey: "53ee32f8cc60c24703fecd6e121cabb710c71c46f288b5864a64845c558d1fff", clientKey: "3bafaebfa7a4fa9470ed7edf0a7e3811228f61e5ae930929cd49dce421311bbf")
+        if (NCMBUser.currentUser?.isAuthenticated == true) {
+            NCMBUser.logOut()
+        }
         return true
     }
 
